@@ -16,3 +16,7 @@ html, body {
 .page {
 	display: none;
 }
+
+area:hover {
+	border: 5px solid red;
+}
