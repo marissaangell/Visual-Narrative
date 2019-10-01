@@ -24,10 +24,70 @@ $("#FirstHallwayDoor").click(function(){ //id of map you are clicking
 	$("#troy_1_2").show(); //id of div you want to show
 })
 
+$("#FirstHallwayLight").click(function(){ //id of map you are clicking
+	$("#troy_1").fadeOut(); //id of div you want to hide
+	$("#troy_2").show(); //id of div you want to show
+})
 
+$("#FirstRoom").click(function(){ //id of map you are clicking
+	$("#troy_1_2").fadeOut(); //id of div you want to hide
+	$("#troy_2").show(); //id of div you want to show
+})
 
+$("#SecondHallwayLeftDoor").click(function(){ //id of map you are clicking
+	$("#troy_2").fadeOut(); //id of div you want to hide
+	$("#troy_2_2").show(); //id of div you want to show
+})
 
+$("#SecondHallwayRightDoor").click(function(){ //id of map you are clicking
+	$("#troy_2").fadeOut(); //id of div you want to hide
+	$("#troy_2_2").show(); //id of div you want to show
+})
 
+$("#SecondHallwayLight").click(function(){ //id of map you are clicking
+	$("#troy_2").fadeOut(); //id of div you want to hide
+	$("#troy_3").show(); //id of div you want to show
+})
+
+$("#SecondRoomDoor").click(function(){ //id of map you are clicking
+	$("#troy_2_2").fadeOut(); //id of div you want to hide
+	$("#troy_3").show(); //id of div you want to show
+})
+
+$("#ThirdHallwayDoor").click(function(){ //id of map you are clicking
+	$("#troy_3").fadeOut(); //id of div you want to hide
+	$("#troy_3_2").show(); //id of div you want to show
+})
+
+$("#ThirdHallwayLight").click(function(){ //id of map you are clicking
+	$("#troy_3").fadeOut(); //id of div you want to hide
+	$("#troy_4").show(); //id of div you want to show
+})
+
+$("#ThirdRoomDoor").click(function(){ //id of map you are clicking
+	$("#troy_3_2").fadeOut(); //id of div you want to hide
+	$("#troy_3_3").show(); //id of div you want to show
+})
+
+$("#FourthRoomDoor").click(function(){ //id of map you are clicking
+	$("#troy_3_3").fadeOut(); //id of div you want to hide
+	$("#troy_4").show(); //id of div you want to show
+})
+
+$("#FourthHallwayLight").click(function(){ //id of map you are clicking
+	$("#troy_4").fadeOut(); //id of div you want to hide
+	$("#troy_5").show(); //id of div you want to show
+})
+
+$("#FinalDoorLight").click(function(){ //id of map you are clicking
+	$("#troy_5").fadeOut(); //id of div you want to hide
+	$("#troy_6").show(); //id of div you want to show
+})
+
+$("#Chair").click(function(){ //id of map you are clicking
+	$("#troy_6").fadeOut(); //id of div you want to hide
+	$("#homepage").show(); //id of div you want to show
+})
 
 //Call to API to make image maps responsive
 $('map').imageMapResize();
