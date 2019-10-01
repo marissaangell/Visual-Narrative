@@ -3,15 +3,14 @@ $("audio").mouseleave(function(){
 })
 
 //Marissa path
-$("#main-door-1").click(function(){
-	$("#homepage").fadeOut();
-	$("#marissa_audio").show();
+$("#main-door-1").click(function(){ //id of map you are clicking
+	$("#homepage").fadeOut(); //id of div you want to hide
+	$("#marissa_audio").show(); //id of div you want to show
 })
 
 $("#marissa_audio").mouseleave(function(){
 	$("#marissa_1").show();
 })
-
 
 	//start of marissa path 1
 	$("#arch1").click(function(){ 
@@ -46,6 +45,12 @@ $("#marissa_audio").mouseleave(function(){
 		$("#marissa_4-2").show();
 	})
 
+
+//Troy path
+$("#main-door-2").click(function(){ //id of map you are clicking
+	$("#homepage").fadeOut(); //id of div you want to hide
+	$("#troy_1").show(); //id of div you want to show
+})
 
 
 
