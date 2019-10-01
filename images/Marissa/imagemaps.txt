@@ -1,0 +1,9 @@
+--beachdoor1
+<map name="map_page1">
+	<area id="mapto_1-2" alt="beachdoor_1" title="beachdoor_1" coords="622,430,506,888,281,879,411,374" shape="poly">
+</map>
+
+--beachdoor2
+<map name="map_page_1-2">
+	<area id="mapto_1-3" alt="beachdoor_2" title="beachdoor_2" coords="334,446,467,942,602,889,853,882,774,604,720,361" shape="poly">
+</map>

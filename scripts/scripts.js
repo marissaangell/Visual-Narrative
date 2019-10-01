@@ -2,19 +2,17 @@ $("audio").mouseleave(function(){
 	$(this).addClass("hidden");
 })
 
-$("#audio1").mouseleave(function(){
-	$("marissa_1").show();
+//Marissa path
+$("#main-door-1").click(function(){
+	$("#homepage").fadeOut();
+	$("#marissa_audio").show();
 })
 
-$("#mapto_1-2").click(function(){
-	$("#page_1").fadeOut();
-	$("#page_1-2").show();
+$("#marissa_audio").mouseleave(function(){
+	$("#marissa_1").show();
 })
 
-$("#mapto_1-3").click(function(){
-	$("#page_1-2").fadeOut();
-	$("#page_1-3").show();
-})
+
 
 
 
