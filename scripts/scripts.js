@@ -19,7 +19,7 @@ $("#main-door-2").click(function(){ //id of map you are clicking
 	$("#troy_1").show(); //id of div you want to show
 })
 
-$("#map_FirstHallwayDoor").click(function(){ //id of map you are clicking
+$("#FirstHallwayDoor").click(function(){ //id of map you are clicking
 	$("#troy_1").fadeOut(); //id of div you want to hide
 	$("#troy_1_2").show(); //id of div you want to show
 })
