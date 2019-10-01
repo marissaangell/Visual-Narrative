@@ -2,10 +2,11 @@ $("audio").mouseleave(function(){
 	$(this).addClass("hidden");
 })
 
+
+
 $("#mapto_1-2").click(function(){
 	$("#page_1").fadeOut();
 	$("#page_1-2").show();
-	$("#audio1").play();
 })
 
 $("#mapto_1-3").click(function(){
