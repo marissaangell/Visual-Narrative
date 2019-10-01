@@ -7,6 +7,16 @@
 	</head>
 
 	<body>
+		<!--
+		<audio src="perplexity1.mp3" style="display:none;" autoplay></audio>
+		-->
+	
+		<!--
+		<audio autoplay>
+			<source src="perplexity1.mp3" type="audio/mpeg">
+		</audio>
+	-->
+
 		<!-- 
 			Live Site URL: 
 				https://marissaangell.github.io/Visual-Narrative/
@@ -17,28 +27,60 @@
 	<!-------------------- Main Pages ----------------------->
 
 		<!-- Landing Page -->
-		<div class="home_page" id="page_1">
+		<div class="homepage page" id="homepage">
+			<!-- Page Image -->
+			<img class="background" usemap="#map_homepage" src="images/homepage_title.jpg">
+
+			<!-- Map for the Page Image -->
+			<map name="map_homepage">
+			    <area target="" alt="door1" title="door1" href="" coords="168,413,37,170" shape="rect">
+			    <area target="" alt="door2" title="door2" href="" coords="245,172,376,410" shape="rect">
+			    <area target="" alt="door3" title="door3" href="" coords="460,171,588,413" shape="rect">
+			    <area target="" alt="door4" title="door4" href="" coords="665,171,799,414" shape="rect">
+			    <area target="" alt="door5" title="door5" href="" coords="879,171,1012,412" shape="rect">
+			</map>
+		</div>
+
+		<!-- If we want a homepage with no title
+		<div class="homepage_2 page" id="homepage_2">
+			
+			<img class="background" usemap="#map_homepage_2" src="images/row_of_doors.jpg">
+
+			
+		</div>
+		-->
+
+		<div class="" id="page_1">
+			<!-- Audio Starter -->
+			<div class="audio-container">
+				<audio id="audio1" autoplay src="perplexity2.mp3" loop controls>
+					Your browser does not support the audio element.
+				</audio>
+			</div>
+
 			<!-- Page Image -->
 			<img class="background" usemap="#map_page1" src="images/beachdoor_1.jpg">
 
 			<!-- Map for the Page Image -->
 			<map name="map_page1">
-			    <area alt="beachdoor_1" title="beachdoor_1" coords="622,430,506,888,281,879,411,374" shape="poly" id="mapto_1-1">
+			    <area id="mapto_1-2" alt="beachdoor_1" title="beachdoor_1" coords="622,430,506,888,281,879,411,374" shape="poly">
+			</map>
+
+
+		</div>
+
+
+		<div class="page" id="page_1-2" hidden>
+			<img class="background" src="images/beachdoor_2.jpg" usemap="#map_page1-2">
+
+			<map name="map_page_1-2">
+		    	<area id="mapto_1-3" alt="beachdoor_2" title="beachdoor_2" coords="334,446,467,942,602,889,853,882,774,604,720,361" shape="poly">
 			</map>
 		</div>
 
 
-		<div class="page" id="page_1-1" hidden>
-			<img class="background" src="images/beachdoor_2.jpg" usemap="#map_page1-1">
-
-			<map name="map_page1-1">
-		    	<area alt="beachdoor_2" title="beachdoor_2" coords="334,446,467,942,602,889,853,882,774,604,720,361" shape="poly" id="mapto_1-1-1">
-			</map>
-		</div>
-
-
-		<div class="page" id="page_1-1-1" hidden>
-			<img class="background" src="images/beachdoor_3.jpg" usemap="#map_page1-1-1">
+		<div class="page" id="page_1-3" hidden>
+			<img class="background" src="images/beachdoor_3.jpg" usemap="#map_page1-3">
 		</div>
 
 

@@ -1,11 +1,16 @@
-$("#mapto_1-1").click(function(){
-	$("#page_1").fadeOut();
-	$("#page_1-1").show();
+$("audio").mouseleave(function(){
+	$(this).addClass("hidden");
 })
 
-$("#mapto_1-1-1").click(function(){
-	$("#page_1-1").fadeOut();
-	$("#page_1-1-1").show();
+$("#mapto_1-2").click(function(){
+	$("#page_1").fadeOut();
+	$("#page_1-2").show();
+	$("#audio1").play();
+})
+
+$("#mapto_1-3").click(function(){
+	$("#page_1-2").fadeOut();
+	$("#page_1-3").show();
 })
 
 
