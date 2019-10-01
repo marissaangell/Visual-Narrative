@@ -13,6 +13,11 @@ $("#marissa_audio").mouseleave(function(){
 })
 
 
+//Troy path
+$("#main-door-2").click(function(){ //id of map you are clicking
+	$("#homepage").fadeOut(); //id of div you want to hide
+	$("#troy_1").show(); //id of div you want to show
+})
 
 
 
