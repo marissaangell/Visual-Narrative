@@ -27,52 +27,88 @@
 	<!-------------------- Main Pages ----------------------->
 
 		<!-- Landing Page -->
+		<div class="homepage">
+			<!--Todo: make a play page-->
+			<div id="play-button" class="button">
+				
+			</div>
+
+			<div id="credits-button" class="button">
+				
+			</div>
+		</div>
+
 		<div class="homepage" id="homepage">
 			<!-- Page Image -->
 			<img class="background" usemap="#map_homepage" src="images/row_of_doors.jpg">
 
 			<!-- Map for the Page Image -->
 			<map name="map_homepage">
-			    <area target="" alt="door1" title="door1" href="" coords="168,413,37,170" shape="rect">
-			    <area target="" alt="door2" title="door2" href="" coords="245,172,376,410" shape="rect">
-			    <area target="" alt="door3" title="door3" href="" coords="460,171,588,413" shape="rect">
-			    <area target="" alt="door4" title="door4" href="" coords="665,171,799,414" shape="rect">
-			    <area target="" alt="door5" title="door5" href="" coords="879,171,1012,412" shape="rect">
+			    <area id="main-door-1" target="" alt="door1" title="door1" href="" coords="168,413,37,170" shape="rect">
+			    <area id="main-door-2" target="" alt="door2" title="door2" href="" coords="245,172,376,410" shape="rect">
+			    <area id="main-door-3" target="" alt="door3" title="door3" href="" coords="460,171,588,413" shape="rect">
+			    <area id="main-door-4" target="" alt="door4" title="door4" href="" coords="665,171,799,414" shape="rect">
+			    <area id="main-door-5" target="" alt="door5" title="door5" href="" coords="879,171,1012,412" shape="rect">
 			</map>
 		</div>
 
-		<div class="page" id="page_1">
+		<!-------------------- Marissa Pages ----------------------->
+
+		<div id="Marissa-path">
+
 			<!-- Audio Starter -->
-			<div class="audio-container">
+			<div id="marissa_audio" class="page audio-container">
 				<audio id="audio1" autoplay src="perplexity2.mp3" loop controls>
 					Your browser does not support the audio element.
 				</audio>
 			</div>
 
-			<!-- Page Image -->
-			<img class="background" usemap="#map_page1" src="images/beachdoor_1.jpg">
+			<div class="page" id="marissa_1">
+			
+				<!-- Page Image -->
+				<img class="background" usemap="#map_page1" src="images/beachdoor_1.jpg">
 
-			<!-- Map for the Page Image -->
-			<map name="map_page1">
-			    <area id="mapto_1-2" alt="beachdoor_1" title="beachdoor_1" coords="622,430,506,888,281,879,411,374" shape="poly">
-			</map>
+				<!-- Map for the Page Image -->
+				<map name="map_page1">
+				    <area id="mapto_1-2" alt="beachdoor_1" title="beachdoor_1" coords="622,430,506,888,281,879,411,374" shape="poly">
+				</map>
 
+			</div>
+
+
+			<div class="page" id="page_1-2" hidden>
+				<img class="background" src="images/beachdoor_2.jpg" usemap="#map_page1-2">
+
+				<map name="map_page_1-2">
+			    	<area id="mapto_1-3" alt="beachdoor_2" title="beachdoor_2" coords="334,446,467,942,602,889,853,882,774,604,720,361" shape="poly">
+				</map>
+			</div>
+
+
+			<div class="page" id="page_1-3" hidden>
+				<img class="background" src="images/beachdoor_3.jpg" usemap="#map_page1-3">
+			</div>
+		</div>
+
+		<!-------------------- Troy Pages ----------------------->
+
+		<div id="Troy-path">
 
 		</div>
 
+		<!-------------------- Tyler Pages ----------------------->
 
-		<div class="page" id="page_1-2" hidden>
-			<img class="background" src="images/beachdoor_2.jpg" usemap="#map_page1-2">
+		<div id="Tyler-path">
 
-			<map name="map_page_1-2">
-		    	<area id="mapto_1-3" alt="beachdoor_2" title="beachdoor_2" coords="334,446,467,942,602,889,853,882,774,604,720,361" shape="poly">
-			</map>
 		</div>
 
+		<!-------------------- Rachel Pages ----------------------->
 
-		<div class="page" id="page_1-3" hidden>
-			<img class="background" src="images/beachdoor_3.jpg" usemap="#map_page1-3">
+		<div id="Rachel-path">
+
 		</div>
+
+		
 
 
 	<!---------------- End of Main Pages ------------------->

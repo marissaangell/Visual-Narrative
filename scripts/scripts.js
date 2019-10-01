@@ -2,7 +2,9 @@ $("audio").mouseleave(function(){
 	$(this).addClass("hidden");
 })
 
-
+$("#audio1").mouseleave(function(){
+	$("marissa_1").show();
+})
 
 $("#mapto_1-2").click(function(){
 	$("#page_1").fadeOut();
