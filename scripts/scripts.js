@@ -23,7 +23,7 @@ $("#marissa_audio").mouseleave(function(){
 		$("#marissa_3-1").show();
 	})
 
-	$("#").click(function(){ 
+	$("#junglestairs").click(function(){ 
 		$("#marissa_3-1").fadeOut();
 		$("#marissa_4-1").show();
 	})
@@ -40,9 +40,14 @@ $("#marissa_audio").mouseleave(function(){
 		$("#marissa_3-2").show();
 	})
 
-	$("#").click(function(){
+	$("#cliff").click(function(){
 		$("#marissa_3-2").fadeOut();
 		$("#marissa_4-2").show();
+	})
+
+	$("#cliffsunset").click(function(){
+		$("#marissa_4-2").fadeOut();
+		$("#marissa_5-2").show();
 	})
 
 
