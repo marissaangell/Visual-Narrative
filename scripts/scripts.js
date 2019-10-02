@@ -5,7 +5,7 @@ $("audio").mouseleave(function(){
 //Marissa path
 $("#main-door-4").click(function(){ //id of map you are clicking
 	$("#homepage").fadeOut(); //id of div you want to hide
-	$("#marissa_1").removeClass("hidden"); 
+	$("#marissa_1").show(); 
 })
 
 	//start of marissa path 1
