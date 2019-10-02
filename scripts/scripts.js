@@ -3,7 +3,7 @@ $("audio").mouseleave(function(){
 })
 
 //Marissa path
-$("#main-door-1").click(function(){ //id of map you are clicking
+$("#main-door-4").click(function(){ //id of map you are clicking
 	$("#homepage").fadeOut(); //id of div you want to hide
 	$("#marissa_audio").show(); //id of div you want to show
 	$("#audio-marissa").removeClass("hidden"); 
@@ -71,6 +71,34 @@ $("#marissa_audio").mouseleave(function(){
 	$("#cliffsunset").click(function(){
 		$("#marissa_4-2").fadeOut();
 		$("#marissa_5-2").show();
+	})
+
+	$("#beachdoor1").click(function(){
+		$("#marissa_5-2").fadeOut();
+		$("#marissa_6-2").show();
+	})
+
+	$("#beachdoor2").click(function(){
+		$("#marissa_6-2").fadeOut();
+		$("#marissa_7-2").show();
+	})
+
+	$("#beachdoor3").click(function(){
+		$("#marissa_7-2").fadeOut();
+		$("#marissa_8-2").show();
+	})
+
+	$("#beachdoor4").click(function(){
+		$("#marissa_8-2").fadeOut();
+		$("#marissa_9-2").show();
+	})
+
+	$("#desertdoor").click(function(){
+		$("#marissa_9-2").fadeOut();
+		
+		setTimeout(function(){
+	  		$("#homepage").show();
+		}, 1500);
 	})
 
 
@@ -147,11 +175,16 @@ $("#FinalDoorLight").click(function(){
 
 $("#Chair").click(function(){ 
 	$("#troy_6").fadeOut(); 
-	$("#homepage").show(); 
+	
+	setTimeout(function(){
+	  	$("#homepage").show();
+	}, 1500);
 })
 
 
+
 //Tyler path
+
 $("#main-door-3").click(function(){ 
 	$("#homepage").fadeOut(); 
 	$("#tyler_1").show(); 
@@ -214,9 +247,57 @@ $("#wood_room").click(function(){
 
 $("#paradox").click(function(){ 
 	$("#tyler_12").fadeOut(); 
-	$("#homepage").show(); 
+	
+	setTimeout(function(){
+	  	$("#homepage").show();
+	}, 1500);
 })
 
+
+
+//Rachel path
+$("#main-door-1").click(function(){ 
+	$("#homepage").fadeOut(); 
+	$("#rachel_1").show(); 
+})
+
+$("#mind").click(function(){ 
+	$("#rachel_1").fadeOut(); 
+	$("#rachel_2").show(); 
+})
+
+$("#bridge").click(function(){ 
+	$("#rachel_2").fadeOut(); 
+	$("#rachel_3").show(); 
+})
+
+$("#house").click(function(){ 
+	$("#rachel_3").fadeOut(); 
+	$("#rachel_4").show(); 
+})
+
+$("#island").click(function(){ 
+	$("#rachel_4").fadeOut(); 
+	$("#rachel_5").show(); 
+})
+
+$("#waffles").click(function(){ 
+	$("#rachel_5").fadeOut(); 
+	$("#rachel_6").show(); 
+})
+
+$("#tacos").click(function(){ 
+	$("#rachel_6").fadeOut(); 
+	$("#rachel_7").show(); 
+})
+
+$("#earth").click(function(){ 
+	$("#rachel_7").fadeOut();
+
+	setTimeout(function(){
+	  	$("#homepage").show();
+	}, 1500);
+})
 
 
 
