@@ -75,80 +75,149 @@ $("#marissa_audio").mouseleave(function(){
 
 
 //Troy path
-$("#main-door-2").click(function(){ //id of map you are clicking
-	$("#homepage").fadeOut(); //id of div you want to hide
-	$("#troy_1").show(); //id of div you want to show
+$("#main-door-2").click(function(){ 
+	$("#homepage").fadeOut(); 
+	$("#troy_1").show(); 
 })
 
-$("#FirstHallwayDoor").click(function(){ //id of map you are clicking
-	$("#troy_1").fadeOut(); //id of div you want to hide
-	$("#troy_1_2").show(); //id of div you want to show
+$("#FirstHallwayDoor").click(function(){ 
+	$("#troy_1").fadeOut(); 
+	$("#troy_1_2").show(); 
 })
 
-$("#FirstHallwayLight").click(function(){ //id of map you are clicking
-	$("#troy_1").fadeOut(); //id of div you want to hide
-	$("#troy_2").show(); //id of div you want to show
+$("#FirstHallwayLight").click(function(){ 
+	$("#troy_1").fadeOut(); 
+	$("#troy_2").show(); 
 })
 
-$("#FirstRoom").click(function(){ //id of map you are clicking
-	$("#troy_1_2").fadeOut(); //id of div you want to hide
-	$("#troy_2").show(); //id of div you want to show
+$("#FirstRoom").click(function(){ 
+	$("#troy_1_2").fadeOut(); 
+	$("#troy_2").show(); 
 })
 
-$("#SecondHallwayLeftDoor").click(function(){ //id of map you are clicking
-	$("#troy_2").fadeOut(); //id of div you want to hide
-	$("#troy_2_2").show(); //id of div you want to show
+$("#SecondHallwayLeftDoor").click(function(){ 
+	$("#troy_2").fadeOut(); 
+	$("#troy_2_2").show(); 
 })
 
-$("#SecondHallwayRightDoor").click(function(){ //id of map you are clicking
-	$("#troy_2").fadeOut(); //id of div you want to hide
-	$("#troy_2_2").show(); //id of div you want to show
+$("#SecondHallwayRightDoor").click(function(){ 
+	$("#troy_2").fadeOut(); 
+	$("#troy_2_2").show(); 
 })
 
-$("#SecondHallwayLight").click(function(){ //id of map you are clicking
-	$("#troy_2").fadeOut(); //id of div you want to hide
-	$("#troy_3").show(); //id of div you want to show
+$("#SecondHallwayLight").click(function(){ 
+	$("#troy_2").fadeOut(); 
+	$("#troy_3").show(); 
 })
 
-$("#SecondRoomDoor").click(function(){ //id of map you are clicking
-	$("#troy_2_2").fadeOut(); //id of div you want to hide
-	$("#troy_3").show(); //id of div you want to show
+$("#SecondRoomDoor").click(function(){ 
+	$("#troy_2_2").fadeOut(); 
+	$("#troy_3").show(); 
 })
 
-$("#ThirdHallwayDoor").click(function(){ //id of map you are clicking
-	$("#troy_3").fadeOut(); //id of div you want to hide
-	$("#troy_3_2").show(); //id of div you want to show
+$("#ThirdHallwayDoor").click(function(){ 
+	$("#troy_3").fadeOut(); 
+	$("#troy_3_2").show(); 
 })
 
-$("#ThirdHallwayLight").click(function(){ //id of map you are clicking
-	$("#troy_3").fadeOut(); //id of div you want to hide
-	$("#troy_4").show(); //id of div you want to show
+$("#ThirdHallwayLight").click(function(){ 
+	$("#troy_3").fadeOut(); 
+	$("#troy_4").show(); 
 })
 
-$("#ThirdRoomDoor").click(function(){ //id of map you are clicking
-	$("#troy_3_2").fadeOut(); //id of div you want to hide
-	$("#troy_3_3").show(); //id of div you want to show
+$("#ThirdRoomDoor").click(function(){ 
+	$("#troy_3_2").fadeOut(); 
+	$("#troy_3_3").show(); 
 })
 
-$("#FourthRoomDoor").click(function(){ //id of map you are clicking
-	$("#troy_3_3").fadeOut(); //id of div you want to hide
-	$("#troy_4").show(); //id of div you want to show
+$("#FourthRoomDoor").click(function(){ 
+	$("#troy_3_3").fadeOut(); 
+	$("#troy_4").show(); 
 })
 
-$("#FourthHallwayLight").click(function(){ //id of map you are clicking
-	$("#troy_4").fadeOut(); //id of div you want to hide
-	$("#troy_5").show(); //id of div you want to show
+$("#FourthHallwayLight").click(function(){ 
+	$("#troy_4").fadeOut(); 
+	$("#troy_5").show(); 
 })
 
-$("#FinalDoorLight").click(function(){ //id of map you are clicking
-	$("#troy_5").fadeOut(); //id of div you want to hide
-	$("#troy_6").show(); //id of div you want to show
+$("#FinalDoorLight").click(function(){ 
+	$("#troy_5").fadeOut(); 
+	$("#troy_6").show(); 
 })
 
-$("#Chair").click(function(){ //id of map you are clicking
-	$("#troy_6").fadeOut(); //id of div you want to hide
-	$("#homepage").show(); //id of div you want to show
+$("#Chair").click(function(){ 
+	$("#troy_6").fadeOut(); 
+	$("#homepage").show(); 
 })
+
+
+//Tyler path
+$("#main-door-3").click(function(){ 
+	$("#homepage").fadeOut(); 
+	$("#tyler_1").show(); 
+})
+
+$("#grass_door").click(function(){ 
+	$("#tyler_1").fadeOut(); 
+	$("#tyler_2").show(); 
+})
+
+$("#flower").click(function(){ 
+	$("#tyler_2").fadeOut(); 
+	$("#tyler_3").show(); 
+})
+
+$("#grassydoorway").click(function(){ 
+	$("#tyler_3").fadeOut(); 
+	$("#tyler_4").show(); 
+})
+
+$("#darkhallway").click(function(){ 
+	$("#tyler_4").fadeOut(); 
+	$("#tyler_5").show(); 
+})
+
+$("#city").click(function(){ 
+	$("#tyler_5").fadeOut(); 
+	$("#tyler_6").show(); 
+})
+
+$("#city_crowd").click(function(){ 
+	$("#tyler_6").fadeOut(); 
+	$("#tyler_7").show(); 
+})
+
+$("#motorcycle").click(function(){ 
+	$("#tyler_7").fadeOut(); 
+	$("#tyler_8").show(); 
+})
+
+$("#cityscape").click(function(){ 
+	$("#tyler_8").fadeOut(); 
+	$("#tyler_9").show(); 
+})
+
+$("#overgrown_city").click(function(){ 
+	$("#tyler_9").fadeOut(); 
+	$("#tyler_10").show(); 
+})
+
+$("#overgrown").click(function(){ 
+	$("#tyler_10").fadeOut(); 
+	$("#tyler_11").show(); 
+})
+
+$("#wood_room").click(function(){ 
+	$("#tyler_11").fadeOut(); 
+	$("#tyler_12").show(); 
+})
+
+$("#paradox").click(function(){ 
+	$("#tyler_12").fadeOut(); 
+	$("#homepage").show(); 
+})
+
+
 
 
 //Call to API to make image maps responsive
