@@ -1,10 +1,29 @@
+$("#credits-button").click(function(){ 
+	$("#menu").fadeOut(); 
+	$("#credits").show(); 
+})
+
+$("#back-button").click(function(){ 
+	$("#credits").fadeOut(); 
+	$("#menu").show(); 
+})
+
+$("#play-button").click(function(){ 	//id of map you are clicking
+	$("#menu").fadeOut(); 				//id of div you want to hide
+
+	setTimeout(function(){
+		$("#audio-container").show(); 		//id of div you want to show	  	
+	}, 1000);
+})
+
 $("audio").mouseleave(function(){
 	$(this).addClass("hidden");
+	$("#homepage").show(); 
 })
 
 //Marissa path
-$("#main-door-4").click(function(){ //id of map you are clicking
-	$("#homepage").fadeOut(); //id of div you want to hide
+$("#main-door-4").click(function(){ 
+	$("#homepage").fadeOut(); 
 	$("#marissa_1").show(); 
 })
 

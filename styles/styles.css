@@ -6,16 +6,54 @@ html, body {
 	background-color: black;
 }
 
+#audio-container {
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+
+  	text-align: center;
+}
+
+.button-container {
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
 .button {
-	
+	color: white;
+	font-size: 144px;
+	text-align: center;
+
+	border: 5px solid white;
+	border-radius: 25px;
+
+	display: inline-block;
+	width: 20vw;
+	margin: auto;
 }
 
 #play-button {
-
+	margin-right: 50px;
 }
 
-#credits-button {
-	
+#back-button {
+	font-size: 72px;
+	border: 3px solid white;
+	width: 10vw;
+}
+
+.credits-container {
+	display: block;
+	color: white;
+	font-size: 18px;
+
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
 
 .background {

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 		<link rel="stylesheet" type="text/css" href="styles/styles.css">
 
 		<title>Visual Narrative</title>
@@ -15,12 +17,61 @@
 	<!-------------------- Main Pages ----------------------->
 
 		<!-- Landing Page -->
-		
-		<div class="homepage" id="homepage">
-			<audio id="audio2" autoplay src="perplexity2.mp3" loop controls>
+		<div class="menu" id="menu">
+			<div class="button-container">
+
+				<div class="button" id="play-button">
+					<i class="fa fa-play-circle" aria-hidden="true"></i>
+				</div>
+
+				<div class="button" id="credits-button">
+					<i class="fa fa-book" aria-hidden="true"></i>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="page credits" id="credits">
+			<div class="button" id="back-button">
+				<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+			</div>
+
+			<div class="credits-container">
+				<p>
+					https://www.reddit.com/r/photoshopbattles/comments/d87xzs/psbattle_sculpture_in_iran/ 
+					<br>https://www.borntowin.net/audio/making-life-work-7/
+					<br>https://www.finehomebuilding.com/2015/05/21/archways-ceilings-prefab-archway-and-ceiling-systems
+					<br>https://weheartit.com/entry/279893889
+					<br>https://www.flickr.com/photos/davethegrey/2723055509
+					<br>https://pixels.com/featured/jungle-temple-door-1-stephen-stookey.html
+					<br>https://commons.wikimedia.org/wiki/File:India_-_Hyderabad_-_110_-_archways_at_the_Qutub_Shahi_Tombs_(4334426334).jpg
+					<br>https://www.peacequarters.com/i-checked-myself-in-to-a-psychiatric-hospital/
+					<br>http://dzinetrip.com/nature-reclaims-itself-inside-an-art-gallery-in-oslo/
+					<br>https://en.wikipedia.org/wiki/Pedn_Vounder
+					<br>https://www.tripadvisor.com/LocationPhotoDirectLink-g60713-d373649-i32469386-Cliff_House-San_Francisco_California.html
+					<br>https://www.courtlandshakespeare.com/s5_spec_fw1.html
+					<br>https://www.renderosity.com/mod/gallery/the-infinite-staircase-the-search-for-truth/2679595/?p
+					<br>https://www.curbed.com/2018/5/11/17343310/architectural-optical-illusion-minax-architects
+					<br>https://www.pinterest.com/pin/366621225886069861/
+					<br>https://www.reddit.com/r/TerrainBuilding/comments/7tukcs/overgrown_city/
+					<br>https://www.nytimes.com/2019/02/01/world/americas/venezuela-voices-protests.html
+					<br>https://www.nytimes.com/video/opinion/100000003815275/starving-on-the-streets.html
+					<br>http://blog.sherpa.com.cn/blog/2019/05/14/your-zhongguo-chased-by-dogs-in-historic-shanghai/
+					<br>https://www.youngleadersarena.com/small-business/marketing/crowded-market/
+				</p>
+			</div>
+		</div>
+
+
+		<div class="page" id="audio-container">
+			<audio id="audio" autoplay src="perplexity2.mp3" loop controls>
 				Your browser does not support the audio element.
 			</audio>
+		</div>
 
+
+		<!-- Row of Doors -->
+		<div class="homepage page" id="homepage">
 			<!-- Page Image -->
 			<img class="background" usemap="#map_homepage" src="images/row_of_doors.jpg">
 
@@ -36,11 +87,6 @@
 	<!-------------------- Marissa Pages ----------------------->
 
 		<div id="Marissa-path">
-
-			<!-- Audio Starter -->
-			<div id="marissa_audio" class="page audio-container">
-				
-			</div>
 
 			<div id="marissa_1" class="page">
 				<!-- Page Image -->
