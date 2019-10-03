@@ -24,7 +24,7 @@ html, body {
 
 .button {
 	color: white;
-	font-size: 144px;
+	font-size: 100px;
 	text-align: center;
 
 	border: 5px solid white;
@@ -33,6 +33,7 @@ html, body {
 	display: inline-block;
 	width: 20vw;
 	margin: auto;
+	padding: 10px;
 }
 
 #play-button {
